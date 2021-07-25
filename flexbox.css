@@ -1,0 +1,168 @@
+* {
+    margin:0;
+    padding:0;
+}
+/* Responsive Website using Flexbox */
+
+.note {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.header {
+    width: 100%;
+    background-color: darkcyan;
+}
+.header h1 {
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+}
+.header p {
+    padding: 0px 0px 80px 0px;
+    text-align: center;
+}
+
+.h-down {
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.h-down a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    text-align: left;
+}
+
+.h-down a:hover {
+    background-color: cyan;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+.container-left {
+    width: 40%;
+}
+.container-right {
+    width: 60%;
+}
+.img-div img {
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+}
+.more-img img {
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+.container-right-top img {
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+.container-right-bottom img {
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+.container-right h2 {
+    margin-top: 30px;
+}
+.container-right h6 {
+    margin-top: 30px;
+}
+.container-right img {
+    margin-top: 30px;
+}
+.container-left .header-text h2 {
+    margin-top: 30px;
+}
+.container-left .header-text h5 {
+    margin-top: 30px;
+}
+.container-left .img-div h5 {
+    margin-top: 30px;
+}
+
+.footer h2 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.container-right-top p {
+    margin-top: 30px;
+}
+
+.container-left p {
+    margin-top: 30px;
+}
+.more-text h3 {
+    margin-top: 30px;
+}
+
+
+
+
+/* Responsive Image Gallery using Flexbox */
+/* .row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 5px;
+    justify-content:space-evenly;
+    align-content: center;
+    background-color: darkgrey;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 5px;
+
+}
+
+.column img {
+    margin: 5%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    
+} */
+
+
+/****************** Practice One ***************/
+
+/* .flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 20px 100px;
+    color: white;
+}
+
+.two {
+    background-color: brown;
+    width: 100%;
+    padding: 20px 100px;
+    color: white;
+}
+
+@media screen and (max-width: 575px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+} */
